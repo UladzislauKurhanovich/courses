@@ -105,6 +105,11 @@ h1 {
   cursor: pointer;
 }
 
+.table-result-wrapper {
+  max-height: 60vh;
+  overflow: auto;
+}
+
 #table-result {
   /* border: 1mm solid #16D9E3; */
   padding-bottom: 30px;
