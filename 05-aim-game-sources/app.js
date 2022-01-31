@@ -109,6 +109,9 @@ function finishGame() {
     timeEl.parentNode.classList.add('hide')
     setTimeout(() => {
     let name = prompt('Вы поставили новый рекорд! Введите имя для сохранения в таблицу рекордов', 'user')
+    if (name === null){
+        name = 'noname'
+    }
     let user = new User(name, score, nowDate)
     tableResulMas.unshift(user)
     console.log(tableResulMas)
@@ -130,7 +133,7 @@ function finishGame() {
     localStorage.setItem('newScore', userJson)
     let parseJsonMas = JSON.parse(localStorage.getItem('newScore'))
     console.log(parseJsonMas)
-    }, 1000);
+    }, 100);
 
     const brTg = document.createElement('br')
     const brTg1 = document.createElement('br')
