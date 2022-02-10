@@ -1,0 +1,45 @@
+{
+  "name": "webfrompack",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "webpack"
+  ],
+  "author": "vladislav kurhanovich",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jquery": "^3.5.13",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "jquery": "^3.6.0",
+    "react-dom": "^17.0.2"
+  }
+}
