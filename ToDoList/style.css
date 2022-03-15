@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    background-color:antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    font-family: 'Road Rage', cursive;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    font-family: 'Redressed', cursive;
+    display: flex;
+    margin-top: 20px;
+    background-image: url('./590ee58b3de6815be230a7f6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 25%;
+    width: 50%;
+    min-height: 70vh;
+
+}
+.main .container {
+    font-size: 30px;
+    justify-content: left;
+    margin: 0 0 50px 100px;
+}
+
+.input {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+}
+
+.input-text {
+    margin-left: 20px;
+    font-size: 30px;
+    height: max-content;    
+}
+
+.submit-btn {
+    background-color:rgb(203, 252, 235);
+    font-size: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.list {
+    font-size: 40px;
+    color: rgb(51, 50, 50);
+}  
