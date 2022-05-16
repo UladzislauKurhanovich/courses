@@ -1,100 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+
 body{
     background-color: #f1f1f1;
     color: #161807;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: normal;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular',
     'Lucida Grande', 'Lucida Sans Unicode',
     Geneva, Verdana, sans-serif;s
     */
-    font-family: 'Road Rage', cursive;
+    font-family: 'Radio Canada', sans-serif;
 }
 .avatar{
     margin-top: 15px;
-    width: 150px;
-    border-radius: 28px;
-    box-shadow: 10px -10px 14px rgb(36 21 21);
+    max-width: 300px;
+    border-radius: 25px;
+    box-shadow: 5px -5px 10px rgb(36 21 21);
 }
 .about{
     display: flex;
+    margin-bottom: 30px;
 }
+
 @media (max-width: 700px){
     .about{
         text-align: center;
         display: block;
     }
 }
+
 .about-text{
     margin-left: 40px;
 }
+
+.about-text p{
+    font-size: 25px;
+}
+
 .about p{
     color: rgba(29, 28, 28, 0.829);
     font-style: italic;
-    font-weight: bold;
     text-decoration: none;
     /* text-transform: uppercase; */
-    letter-spacing: 0px;
+    letter-spacing: px;
 }
 .container {
-    width: 700px;
+    width: 900px;
     margin: auto;
 }
+
 .social {
-    /* background-color: red;
-    padding-left: 0px;
-    border: 5px solid brown; */
     margin: 15px 0px 10px 0px;
 }
-.social h4{
+
+.social h2 {
     margin: 10px 0px 10px 0px;
 }
-.social a{
+
+.social a {
     font-size: 20px;
 }
+
 .table {
     width: 100%;
-    font: icon;
+    /* font: icon; */
     text-transform: capitalize;
 }
-.table td{
+
+.table td, th {
     text-align: center;
-}
-.table td {
     padding-bottom: 10px;
 }
-.list{
+
+.list {
     padding: 15px;
+    margin-left: 25px;
 }
-.link-list{
+
+.list li:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+/* .link-list {
     list-style: none;
     padding: 0px;
-}
-.link-list li{
+
+} */
+
+.link-list li {
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-a:active{
+
+a:active {
     color: red;
 }
-a:visited{
+
+a:visited {
     color: blueviolet;
+
 }
-.form-group label{
+
+.form-group label {
     font: icon;
     display: block;
     font-size: 14px;
     color: #86898f;
 }
+
 .form-group input,
-.form-group textarea{
+.form-group textarea {
     width: 100%;
     box-sizing: border-box;
     border: none;
@@ -104,12 +128,14 @@ a:visited{
     outline: none;
     margin-bottom: 10px;
 }
-.btn{
+
+.btn {
    background: black;
    padding: 15px 20px;
    color: white;
    border: none; 
 }
-.btn:hover{
+
+.btn:hover {
     opacity: 0.9;
 }
