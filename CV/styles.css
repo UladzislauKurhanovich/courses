@@ -3,7 +3,7 @@
 body{
     background-color: #f1f1f1;
     color: #161807;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: normal;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular',
     'Lucida Grande', 'Lucida Sans Unicode',
@@ -13,7 +13,7 @@ body{
 }
 .avatar{
     margin-top: 15px;
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 25px;
     box-shadow: 5px -5px 10px rgb(36 21 21);
 }
